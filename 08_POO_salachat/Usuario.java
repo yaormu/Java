@@ -1,9 +1,5 @@
-
-package salachat;
-
-
 public class Usuario {
-    
+
     private String nombre;
     private String email;
     private String identificacion;
@@ -23,12 +19,12 @@ public class Usuario {
         numChats = 0;
         numMensaje = 0;
     }
-    
+
     //comportamientos
     public void chatear(Usuario u, String mensaje){
-    
+
     }
-    
+
     public void borrarMensaje(Mensaje mensaje){
         for (int i = 0; i < numMensaje; i++){
             if(mensaje == mensajes[i])
@@ -68,6 +64,6 @@ public class Usuario {
     public void setContrasena(String contrasena) {
         this.contrasena = contrasena;
     }
-    
-    
+
+
 }

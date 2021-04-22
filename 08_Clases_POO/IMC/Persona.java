@@ -1,4 +1,4 @@
-package POO.IMC;
+package IMC;
 
 public class Persona {
 

@@ -29,7 +29,7 @@ usar (n, m, h, a, w, p) =   ’Madera’ if enM adera(n, m, w, p) ≤ enAlambre(
                             ’Alambre’ en otro caso
 */
 
-package Repaso1;
+package Repaso01;
 
 import java.util.Scanner;
 
